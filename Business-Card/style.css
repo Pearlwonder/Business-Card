@@ -1,0 +1,84 @@
+.container {
+  height: 200px;
+  width: 480px;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(20, 151, 86, 0.63);
+}
+
+#name {
+  font-size: 32px;
+  margin-left: -50px;
+  font-family: monospace;
+  text-shadow: 1px 2px seagreen;
+  text-align: center;
+  color: rgb(167, 206, 218);
+}
+#job {
+  font-size: 25px;
+  margin-top: -5px;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  text-shadow: 2px 1px seagreen;
+  text-align: center;
+  color: rgb(91, 33, 167);
+}
+
+.contact {
+  padding: 24px;
+  margin-bottom: 32px;
+  font-size: 14px;
+}
+
+.Home {
+  float: right;
+  font-size: medium;
+  font-family: cursive, sans-serif;
+  padding: -10px;
+  margin-top: -60px;
+  margin-right: -20px;
+  color: rgb(13, 17, 12);
+}
+
+
+#gmaillink, #linkedinlink, #githublink {
+  text-decoration: none;
+  color: rgb(103, 42, 173);
+}
+
+#avi1 {
+  width: 110px;
+  float: left;
+  object-fit: cover;
+  border-radius: 70px;
+}
+
+#avi2, #avi3, #avi4 {
+  width: 20px;
+  float: left;
+}
+
+#Gmail {
+  float: left;
+  font-family: monospace;
+  padding: - 5px;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+#GitHub {
+  float: left;
+  font-family: monospace;
+  padding: -5px;
+  margin-top: -15px;
+  margin-left: -20px;
+}
+
+#LinkedIn {
+  float: left;
+  font-family: monospace;
+  padding: -5px;
+  margin-top: -10px;
+  margin-left: -20px;
+}
